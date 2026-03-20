@@ -7,8 +7,7 @@ import pyttsx3
 #    api_key=os.getenv("OPENROUTER_API_KEY"),
 #    base_url="https://openrouter.ai/api/v1"
 #)
-OPENROUTER_API_KEY = "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"
-fast_api_key="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"
+api_key = os.getenv("OPENROUTER_API_KEY")
 client = OpenAI(
     api_key=fast_api_key,
     base_url="https://openrouter.ai/api/v1"
